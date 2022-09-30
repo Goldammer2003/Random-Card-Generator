@@ -23,7 +23,11 @@ window.onload = function() {
   if (picksuits == "♠") icon1.classList.add("spade");
   if (picksuits == "♠") icon2.classList.add("spade");
   if (picksuits == '"♣"') icon1.classList.add("clubs");
-  if (picksuits == '"♣"') icon2.classList.add("clubs");
+  if (picksuits == "♣") icon2.classList.add("clubs");
+  if (picksuits == "♥") icon1.classList.add("hearts");
+  if (picksuits == "♥") icon2.classList.add("hearts");
+  if (picksuits == "♦") icon1.classList.add("diamonds");
+  if (picksuits == "♦") icon2.classList.add("diamonds");
 
   let whitebox = document.querySelector(".card");
   whitebox.append(icon1);
