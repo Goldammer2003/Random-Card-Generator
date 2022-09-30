@@ -20,14 +20,14 @@ window.onload = function() {
   icon1.innerHTML = picksuits;
   icon2.innerHTML = picksuits;
   cardvalue.innerHTML = pickcards;
-  if (picksuits == "♠") icon1.classList.add("spade");
-  if (picksuits == "♠") icon2.classList.add("spade");
-  if (picksuits == '"♣"') icon1.classList.add("clubs");
-  if (picksuits == "♣") icon2.classList.add("clubs");
-  if (picksuits == "♥") icon1.classList.add("hearts");
-  if (picksuits == "♥") icon2.classList.add("hearts");
-  if (picksuits == "♦") icon1.classList.add("diamonds");
-  if (picksuits == "♦") icon2.classList.add("diamonds");
+  if (picksuits == "♠") icon1.classList.add("spade1");
+  if (picksuits == "♠") icon2.classList.add("spade2");
+  if (picksuits == '"♣"') icon1.classList.add("clubs1");
+  if (picksuits == "♣") icon2.classList.add("clubs2");
+  if (picksuits == "♥") icon1.classList.add("hearts1");
+  if (picksuits == "♥") icon2.classList.add("hearts2");
+  if (picksuits == "♦") icon1.classList.add("diamonds1");
+  if (picksuits == "♦") icon2.classList.add("diamonds2");
 
   let whitebox = document.querySelector(".card");
   whitebox.append(icon1);
