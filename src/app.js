@@ -20,12 +20,13 @@ window.onload = function() {
   icon1.innerHTML = picksuits;
   icon2.innerHTML = picksuits;
   cardvalue.innerHTML = pickcards;
-  if (picksuits == "") icon1.classList.add("spade");
+  if (picksuits == "♠") icon1.classList.add("spade");
+  if (picksuits == "♠") icon2.classList.add("spade");
+  if (picksuits == '"♣"') icon1.classList.add("clubs");
+  if (picksuits == '"♣"') icon2.classList.add("clubs");
 
   let whitebox = document.querySelector(".card");
   whitebox.append(icon1);
   whitebox.append(cardvalue);
   whitebox.append(icon2);
-
-  console.log("Hello Rigo from the console!");
 };
