@@ -10,19 +10,21 @@ body {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-radius: 25px;
 }
 
 .spade1 {
   color: black;
-  font-size: 75px;
-
+  font-size: 100px;
+  padding-left: 15px;
   position: absolute;
   top: 0;
   left: 0;
 }
 .spade2 {
   color: black;
-  font-size: 75px;
+  font-size: 100px;
+  margin-right: 15px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -31,7 +33,9 @@ body {
 
 .clubs1 {
   color: black;
-  font-size: 75px;
+  font-size: 100px;
+  padding-left: 15px;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -39,7 +43,8 @@ body {
 
 .clubs2 {
   color: black;
-  font-size: 75px;
+  font-size: 100px;
+  margin-right: 15px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -47,7 +52,8 @@ body {
 }
 .hearts1 {
   color: red;
-  font-size: 75px;
+  font-size: 100px;
+  padding-left: 15px;
   position: absolute;
   top: 0;
   left: 0;
@@ -55,7 +61,8 @@ body {
 
 .hearts2 {
   color: red;
-  font-size: 75px;
+  font-size: 100px;
+  margin-right: 15px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -64,7 +71,8 @@ body {
 
 .diamonds1 {
   color: red;
-  font-size: 75px;
+  font-size: 100px;
+  padding-left: 15px;
   position: absolute;
   top: 0;
   left: 0;
@@ -72,7 +80,8 @@ body {
 
 .diamonds2 {
   color: red;
-  font-size: 75px;
+  font-size: 100px;
+  margin-right: 15px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -85,4 +94,5 @@ body {
   margin: auto;
   height: auto;
   text-align: center;
+  font-size: 125px;
 }
