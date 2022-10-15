@@ -28,7 +28,7 @@ window.onload = function() {
   if (picksuits == "♥") icon2.classList.add("hearts2");
   if (picksuits == "♦") icon1.classList.add("diamonds1");
   if (picksuits == "♦") icon2.classList.add("diamonds2");
-
+  if (cardvalue) cardvalue.classList.add("number");
   let whitebox = document.querySelector(".card");
   whitebox.append(icon1);
   whitebox.append(cardvalue);
